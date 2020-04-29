@@ -1,10 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Title from "./Title";
+import Pokemon from "./pokemon";
 
 function App() {
   return (
     <div className="App">
+      <main>
+        <Title content="some simple title" />
+      </main>
+      <Pokemon/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
