@@ -1,0 +1,11 @@
+
+.pokemon {
+    transition: transform 0.2s ease;
+  }
+.pokemon:hover {
+    transform: scale(1.02) translate(0, -3px);
+  }
+
+  .Abi:hover {
+    transform: scale(1.02) translate(0, -3px);
+  }

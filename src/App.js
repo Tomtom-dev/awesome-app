@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 import Title from "./Title";
-import Pokemon from "./pokemon";
+import Pokemon from "./components/pokemon";
+
 
 const all_pokemon = [
   {
@@ -36,8 +37,8 @@ const all_pokemon = [
 
 function App() {
   return (
-    <main className="container">
-    <Title content="Some Simple Title" />
+    <main className="container my-5">
+    <Title className="my-5" content="Some Simple Title" />
     <div className="row">
         {all_pokemon.map((pokemon)=>(
           <div className="col-md-6 col-lg-4" >
